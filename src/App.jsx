@@ -7,8 +7,8 @@ function App() {
   return (
     <div id="app-body">
       <div className="app-intro">
+      <Navbar />
         <GifIntro />
-        <Navbar />
       </div>
     </div>
   )

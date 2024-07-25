@@ -4,6 +4,7 @@ import './Navbar.css';
 function Navbar(){
   return (
     <nav>
+      <img className='logo' src="src/assets/pigeon-prime.png" alt="" />
       <ul>
         <li>
           <Link to="/boutique">Boutique</Link>

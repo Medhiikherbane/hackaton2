@@ -1,20 +1,36 @@
 nav {
-    background-color: #e0b371;
-    padding: 1rem;
-  }
-  
-  ul {
-    list-style: none;
-    display: flex;
-    gap: 1rem;
-    justify-content: flex-end;
-  }
-  
-  li {
-    color: white;
-  }
-  
-  a {
-    color: black;
-    text-decoration: none;
-  }
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 100px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+}
+
+li {
+  color: black;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #fff;
+}
+
+a.active {
+  color: #ffeb3b;
+}
