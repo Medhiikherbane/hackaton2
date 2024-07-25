@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#intro2-body {
+    background-image: url(../assets/background-intro.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+
+    /* text-logo {
+
+    } */
+}
