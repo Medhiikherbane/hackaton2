@@ -5,13 +5,18 @@ import ReactDOM from 'react-dom/client';
 import Intro2 from "./pages/Intro2.jsx";
 
 import App from './App.jsx';
+import Map from './components/MapComponents.jsx';
 import './index.css';
 
 
 const router= createBrowserRouter([
   {
     path: "/",
-    element:<App />,
+    element:<App/>,
+  },
+  {
+    path: "/map",
+    element:<Map/>,
   },
   {
     path: "/Intro2",
