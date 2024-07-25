@@ -1,0 +1,20 @@
+nav {
+    background-color: #e0b371;
+    padding: 1rem;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+  }
+  
+  li {
+    color: white;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+  }
