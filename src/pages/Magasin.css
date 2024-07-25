@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.magasin {
+    background-image: url('https://i.pinimg.com/originals/61/73/bd/6173bd391f77d09b2160c0b504003ffa.jpg');
+  
+    background-size: 100%;
+    background-attachment: fixed;
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 50px;
+        h1 {
+            text-align: center;
+            flex: 1;
+            color: black;
+            font-size: 3rem;
+            font-weight: bold;
+            margin-left: 200px;
+        }
+        .go-panier {
+            background-color: black;
+            color: white;
+            margin-right: 100px;
+        }
+    }
+    .produits-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px;
+    
+    }
+    .product {
+        background-color: rgba(0, 0, 0, 0.2);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+        .img-article {
+            background-image: url('https://img.pixers.pics/pho_wat(s3:700/FO/66/07/83/37/700_FO66078337_cf4559f902c386615a7842e0db55c5f3.jpg,700,466,cms:2018/10/5bd1b6b8d04b8_220x50-watermark.png,over,480,416,jpg)/papiers-peints-chateau-medieval-murs-peints-internes.jpg.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+            .product-img {
+                width: 200px;
+            }
+        }    
+        .btn-panier {
+            background-color: black;
+            color: white;
+            margin: 20px;
+            
+        }
+        .h2-article {
+            color: black;
+        }
+        .p-article {
+            color: black;
+            margin: 0 15px 15px 15px;
+        }
+   
+    }
+}
