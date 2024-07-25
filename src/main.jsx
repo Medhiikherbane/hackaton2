@@ -7,6 +7,13 @@ import Panier from './pages/Panier.jsx'
 import './index.css'
 
 
+import Intro2 from "./pages/Intro2.jsx";
+
+
+import Map from './components/MapComponents.jsx';
+
+
+
 const router= createBrowserRouter([
   {
     path: "/",
@@ -19,6 +26,14 @@ const router= createBrowserRouter([
   {
     path: "/Panier",
     element:<Panier/>,
+  }
+  {
+    path: "/map",
+    element:<Map/>,
+  },
+  {
+    path: "/Intro2",
+    element:<Intro2 />,
   }
 ]);
 

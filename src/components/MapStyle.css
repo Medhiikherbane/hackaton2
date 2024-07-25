@@ -1,0 +1,36 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./backgroundMap.jpg");
+}
+
+dialog {
+    border-radius: 10px;
+    background-color: rgb(255, 230, 205);
+}
+.body-dialog {
+    border-radius: 10px;
+    background: fixed;
+    display: flex;
+    border-radius: 20px;
+
+  img {
+            
+            width: 50px;
+            height: 50px;
+            margin-right: 70%;
+            margin-top: 10px;
+   }
+    
+    ul {
+        list-style: none;
+    }
+
+}
+
+#map-container {
+    scale: 1.9;
+    opacity: 0.9;
+}
