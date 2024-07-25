@@ -13,7 +13,15 @@ const router= createBrowserRouter([
   {
     path: "/",
     element:<App/>,
-  }
+  },
+  {
+    path: "/map",
+    element:<Map/>,
+  },
+  {
+    path: "/Intro2",
+    element:<Intro2 />,
+  },
 ]);
 
 
