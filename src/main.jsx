@@ -8,6 +8,7 @@ import './index.css'
 
 
 import Intro2 from "./pages/Intro2.jsx";
+import Birds from "./components/Birds.jsx";
 
 
 import Map from './components/MapComponents.jsx';
@@ -17,7 +18,7 @@ import Map from './components/MapComponents.jsx';
 const router= createBrowserRouter([
   {
     path: "/",
-    element:<App/>,
+    element:<App />,
   },
   {
     path: "/Magasin",
@@ -26,15 +27,19 @@ const router= createBrowserRouter([
   {
     path: "/Panier",
     element:<Panier/>,
-  }
+  },
   {
     path: "/map",
-    element:<Map/>,
+    element:<Map />,
   },
   {
     path: "/Intro2",
     element:<Intro2 />,
-  }
+  },
+  {
+    path: "/Birds",
+    element:<Birds />,
+  },
 ]);
 
 
