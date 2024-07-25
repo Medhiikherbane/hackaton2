@@ -1,0 +1,30 @@
+
+.grid-birds {
+    padding: 1em;
+    background: white;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0.2em;
+    grid-row-gap: 0px;
+
+    p {
+        color: blue;
+    }
+
+    img {
+        width: auto;
+        height: 30vh;
+    }
+
+    .names {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    .bio {
+        display: flex;
+        justify-content: center;
+        width: 15vw;  
+    }
+}
