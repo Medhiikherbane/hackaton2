@@ -1,0 +1,254 @@
+[
+  {
+    "id": 1,
+    "nom": "Épée",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzrXL_Qtjvn4kINrhLu9SDJhQho960H_XuJA&s",
+    "description": "Parce que rien ne dit 'bonjour' comme une épée pointée sur quelqu'un.",
+    "prix": "50 deniers"
+  },
+  {
+    "id": 2,
+    "nom": "Bouclier",
+    "img" : "https://blog.boutique-epees.fr/wp-content/uploads/2019/02/El-Cid-Bouclier.jpg",
+    "description": "Pour ceux qui préfèrent ne pas devenir des brochettes humaines.",
+    "prix": "40 deniers"
+  },
+  {
+    "id": 3,
+    "nom": "Cotte de mailles",
+    "img" : "https://image.over-blog.com/1gYSMeqkpmFLf5BkGBY579wcr2w=/filters:no_upscale()/idata%2F0069647%2Fgorgeron-11.gif",
+    "description": "Parce que la mode médiévale aime le métal sur la peau.",
+    "prix": "200 deniers"
+  },
+  {
+    "id": 4,
+    "nom": "Arc long",
+    "img" : "https://la-forge-medievale.com/1367-home_default/arc-long-58.jpg",
+    "description": "Pour ceux qui aiment dire 'je te vois' à 200 mètres.",
+    "prix": "30 deniers"
+  },
+  {
+    "id": 5,
+    "nom": "Flèches",
+    "img" : "https://journals.openedition.org/rae/docannexe/image/994/img-17.jpg",
+    "description": "Les 'post-it' du Moyen Âge, mais beaucoup plus pointus.",
+    "prix": "1 denier par flèche"
+  },
+  {
+    "id": 6,
+    "nom": "Pain",
+    "img" : "https://www.hirose.fr/wp-content/uploads/2021/02/HIROSE_Pein-blanc-miche-500g.jpg",
+    "description": "Pour une alimentation équilibrée et un projectile d'urgence.",
+    "prix": "2 deniers par miche"
+  },
+  {
+    "id": 7,
+    "nom": "Vin",
+    "img" : "https://www.inrap.fr/dossiers/userdata/c_bloc_album/1/1246/1246_vignette_f-bouteille-clissee.JPG",
+    "description": "Parce que même au Moyen Âge, la sobriété c'est surfait.",
+    "prix": "10 deniers par bouteille"
+  },
+  {
+    "id": 8,
+    "nom": "Bougies",
+    "img" : "https://www.francebleu.fr/s3/cruiser-production/2021/04/c8781e4b-63ef-4034-8602-7a37265a5e05/1200x680_gettyimages-1297685378-170667a1.jpg",
+    "description": "Pour illuminer vos nuits sombres... et éviter de trébucher sur le chien.",
+    "prix": "3 deniers par bougie"
+  },
+  {
+    "id": 9,
+    "nom": "Tissu en laine",
+    "img" : "https://guerriersma.com/_media/img/medium/losange.jpg",
+    "description": "Pour rester chic et chaud, même en chassant des dragons.",
+    "prix": "5 deniers par mètre"
+  },
+  {
+    "id": 10,
+    "nom": "Livre manuscrit",
+    "img" : "https://www.musee-moyenage.fr/cache/media/oeuvres/cl-23927-petit-livre-d-heure-troyen/s,315-c34b6d.jpg",
+    "description": "Pour lire les derniers potins du château sans électricité.",
+    "prix": "100 deniers"
+  },
+  {
+    "id": 11,
+    "nom": "Chausses",
+    "img" : "https://image.jimcdn.com/app/cms/image/transf/dimension=480x10000:format=jpg/path/sf0548e9951ee8468/image/i79a10e4f0a22e67d/version/1357339956/image.jpg",
+    "description": "Pour garder vos pieds au chaud et éviter les regards de jugement.",
+    "prix": "8 deniers par paire"
+  },
+  {
+    "id": 12,
+    "nom": "Casque",
+    "img" : "https://unjeudesjouets.com/5871-large_default/casque-chevalier-enfant-casque-medieval-normand.jpg",
+    "description": "Parce que se prendre une flèche dans la tête, c'est pas cool.",
+    "prix": "60 deniers"
+  },
+  {
+    "id": 13,
+    "nom": "Manteau en fourrure",
+    "img" : "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Douglas_Volk_Artist%27s_Daughter_1914.jpg/170px-Douglas_Volk_Artist%27s_Daughter_1914.jpg",
+    "description": "Pour ressembler à un roi tout en restant au chaud.",
+    "prix": "150 deniers"
+  },
+  {
+    "id": 14,
+    "nom": "Bière",
+    "img" : "https://laforgeduviking.fr/655-large_default/chope-de-biere-viking.jpg",
+    "description": "Le petit déjeuner des champions médiévaux.",
+    "prix": "5 deniers par chope"
+  },
+  {
+    "id": 15,
+    "nom": "Cheval",
+    "img" : "https://guerriersma.com/_media/img/large/selle-cheval.jpg",
+    "description": "Le moyen de transport des VIP du Moyen Âge.",
+    "prix": "500 deniers"
+  },
+  {
+    "id": 16,
+    "nom": "Lance",
+    "img" : "https://la-forge-medievale.com/3483-home_default/lance-africaine-condor.jpg",
+    "description": "Pour quand vous avez besoin de faire une entrée remarquée.",
+    "prix": "20 deniers"
+  },
+  {
+    "id": 17,
+    "nom": "Gourde",
+    "img" : "https://artisa-chimaera.fr/sites/default/files/styles/lightbox/public/portfolio/278/p1100655-1600x1200.jpg?itok=pZ_P8Ofz",
+    "description": "Pour rester hydraté en toutes circonstances. L'eau, c'est important.",
+    "prix": "7 deniers"
+  },
+  {
+    "id": 18,
+    "nom": "Torche",
+    "img" : "https://previews.123rf.com/images/alikaj/alikaj1801/alikaj180100056/93017801-torche-de-fer-de-fer-sur-un-mur-de-pierre-de-mur-m%C3%A9di%C3%A9val.jpg",
+    "description": "Pour éclairer votre chemin et effrayer les créatures de la nuit.",
+    "prix": "4 deniers"
+  },
+  {
+    "id": 19,
+    "nom": "Tabouret en bois",
+    "img" : "https://la-forge-medievale.com/3846-large_default/petit-tabouret-en-bois-31-cm-de-haut.jpg",
+    "description": "Pour s'asseoir et regarder les joutes sans finir par terre.",
+    "prix": "15 deniers"
+  },
+  {
+    "id": 20,
+    "nom": "Corde",
+    "img" : "https://images.ladepeche.fr/api/v1/images/view/5c2ebf0f3e45464ba4252116/full/image.jpg",
+    "description": "Pour toutes vos aventures médiévales nécessitant une évasion rapide.",
+    "prix": "10 deniers"
+  },
+  {
+    "id": 21,
+    "nom": "Bourse en cuir",
+    "img" : "https://media.cdnws.com/_i/259334/m840-879/2473/82/rollooo-plateau-de-sac-d-s-dnd-en-cuir-v-ritable-5-designs-celtiques-jolie-pochette.jpeg",
+    "description": "Pour garder vos deniers bien au chaud et loin des voleurs.",
+    "prix": "6 deniers"
+  },
+  {
+    "id": 22,
+    "nom": "Table en chêne",
+    "img" : "https://www.voyageurs-du-temps.fr/images/sites/cuisine/table-med02.jpg",
+    "description": "Pour festoyer comme un roi avec vos amis chevaliers.",
+    "prix": "100 deniers"
+  },
+  {
+    "id": 23,
+    "nom": "Chandelle parfumée",
+    "img" : "https://static.subbly.me/fs/subbly/userFiles/maprecieusebougiebox-63c5081f9a6f6/images/a-13-seo-bougie-a-la-cire-dabeille-16888273356634.jpg?v=1688827335",
+    "description": "Parce que même au Moyen Âge, ça sentait parfois mauvais.",
+    "prix": "5 deniers"
+  },
+  {
+    "id": 24,
+    "nom": "Tente de campagne",
+    "img" : "https://www.zeltwelt.ch/wp-content/uploads/2014/05/Mittelalterzelte_Zeltwelt.ch_1_cropped-e1408288512729-350x350.jpg",
+    "description": "Pour les chevaliers en déplacement qui veulent dormir confortablement.",
+    "prix": "75 deniers"
+  },
+  {
+    "id": 25,
+    "nom": "Cloche de vache",
+    "img" : "https://www.fermedebeaumont.com/33659-very_large_default/cloche-en-acier-bombe-coloris-bronze-moutons-chevres-sonnailles.jpg",
+    "description": "Pour savoir où est votre vache préférée à tout moment.",
+    "prix": "3 deniers"
+  },
+  {
+    "id": 26,
+    "nom": "Targe",
+    "img" : "https://www.fermedebeaumont.com/33659-very_large_default/cloche-en-acier-bombe-coloris-bronze-moutons-chevres-sonnailles.jpg",
+    "description": "Un bouclier petit mais costaud, pour les guerriers minimalistes.",
+    "prix": "25 deniers"
+  },
+  {
+    "id": 27,
+    "nom": "Harpe",
+    "img" : "https://lelivreetlaharpe.com/wp-content/uploads/2020/11/image291-706x1024.jpeg",
+    "description": "Pour divertir la cour et impressionner les demoiselles.",
+    "prix": "90 deniers"
+  },
+  {
+    "id": 28,
+    "nom": "Tunique",
+    "img" : "https://i.mmo.cm/is/image/mmoimg/an-product-max/tunique-medievale-verte--102471_green-1-mittelalterliche-tunika-gruen-medieval-tunic-green.jpg",
+    "description": "Pour avoir l'air chic et médiéval en toute occasion.",
+    "prix": "30 deniers"
+  },
+  {
+    "id": 29,
+    "nom": "Mortier et pilon",
+    "img" : "https://www.epices.com/485-large_default/petit-mortier-pilon-olivier.jpg",
+    "description": "Pour préparer les potions secrètes et les plats épicés.",
+    "prix": "10 deniers"
+  },
+  {
+    "id": 30,
+    "nom": "Selle de cheval",
+    "img" : "https://la-cavalerie-du-lys-15.webself.net/file/si771131/ob_4ced27_selle-d-amazone-fi11696495x220.jpg",
+    "description": "Pour que votre cheval et vous soyez à l'aise pendant les chevauchées.",
+    "prix": "40 deniers"
+  },
+  {
+    "id": 31,
+    "nom": "Faire-part de naissance",
+    "img" : "https://www.epees.fr/1615-1458-large/faire-part-mariage-medieval.jpg",
+    "description": "Pour annoncer l'arrivée de votre mini-vous au monde médiéval.",
+    "prix": "5 deniers"
+  },
+  {
+    "id": 32,
+    "nom": "Avis de décès",
+    "img" : "https://static.vecteezy.com/ti/vecteur-libre/p3/551690-croix-chretienne-gratuit-vectoriel.jpg",
+    "description": "Pour informer tout le monde que votre oncle préféré a finalement perdu contre le dragon.",
+    "prix": "5 deniers"
+  },
+  {
+    "id": 33,
+    "nom": "Faire-part de mariage",
+    "img" : "https://www.epees.fr/1615-1458-thickbox/faire-part-mariage-medieval.jpg?ps_full_site=1",
+    "description": "Pour inviter tout le royaume à votre grande fête médiévale.",
+    "prix": "5 deniers"
+  },
+  {
+    "id": 34,
+    "nom": "Message express",
+    "img" : "https://www.epees.fr/1606-1443-thickbox/yvan.jpg?ps_full_site=1",
+    "description": "Pour les nouvelles urgentes qui ne peuvent pas attendre le pigeon voyageur.",
+    "prix": "10 deniers"
+  },
+  {
+    "id": 35,
+    "nom": "Message classique",
+    "img" : "https://www.epees.fr/1606-1443-thickbox/yvan.jpg?ps_full_site=1",
+    "description": "Pour envoyer vos missives à l'ancienne, avec classe et élégance.",
+    "prix": "5 deniers"
+  },
+  {
+    "id": 36,
+    "nom": "Message nocturne",
+    "img" : "https://www.epees.fr/1606-1443-thickbox/yvan.jpg?ps_full_site=1",
+    "description": "Pour ceux qui aiment écrire sous la lumière des étoiles.",
+    "prix": "8 deniers"
+  }
+]
