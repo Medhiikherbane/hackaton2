@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "special";
+  src: url("../public/font/special-elite/special-elite.ttf");
+}
+
+:root {
+  --primary-font: "Wild";
+}
+
 body {
   margin: 0;
   padding: 0;
