@@ -18,7 +18,7 @@ a {
 }
 
 #app-body {
-  background-image: url(./assets/background-intro.jpg);
+  background-image: url("./assets/images/background-intro.jpg");
   background-size: cover;
   min-height: 100vh;
   background-position: center; 

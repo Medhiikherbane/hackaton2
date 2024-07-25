@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
-
 import "./Intro2.css"
+
+import AudioPlayer from "../components/AudioPlayer";
 
 function Intro2() {
     return (
@@ -10,8 +11,11 @@ function Intro2() {
             de façon personnalisée en fonction de vos envies et de vos moyens</h2>
             <h2 className="intro2-bienvenue">Bienvenue sur :</h2>
             <Link to="/">
-            <img src="src/assets/pigeon-prime.png" alt ="logo pigeon prime" />
+            <img src="src/assets/images/pigeon-prime.png" alt ="logo pigeon prime" />
             </Link>
+            <div className="intro-pigeon">
+            <AudioPlayer />
+            </div>
         </div>
     )
 }
