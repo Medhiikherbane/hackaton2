@@ -21,9 +21,17 @@ body {
             margin-left: 200px;
         }
         .go-panier {
-            background-color: black;
-            color: white;
-            margin-right: 100px;
+            display: inline-block;
+            padding: 7px 15px;
+            color: #110101;
+            font-size: 16px; 
+            font-weight: bold; 
+            text-align: center;
+            text-decoration: none; 
+            border: none; 
+            border-radius: 25px;
+            cursor: pointer; 
+            transition: background-color 0.3s ease, transform 0.3s ease;
         }
     }
     .produits-container {

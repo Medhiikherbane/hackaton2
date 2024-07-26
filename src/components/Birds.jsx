@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import "./Birds.css";
+import Navbar from "./Navbar";
 
 function Birds() {
   const [birds, setBirds] = useState ([]);
@@ -11,7 +12,9 @@ function Birds() {
     }, []);
 
     return (
+      
       <div className="grid-birds">
+        <Navbar />
         {birds.map((bird) => {
           return (
             <div className="card-birds" key={bird.id}>

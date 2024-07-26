@@ -1,5 +1,8 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import "./Panier.css";
+import Navbar from "../components/Navbar";
+
 
 function Panier() {
   const [panier, setPanier] = useState([]);
@@ -56,6 +59,7 @@ function Panier() {
 
   return (
     <div className="panier-contenu">
+      <Navbar />
       <h1 className="titre-panier">Mon Panier</h1>
       <Link to="/Magasin" type="button">
         <button type="button" className="btn-panier">

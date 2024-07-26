@@ -1,5 +1,4 @@
 import GifIntro from './components/GifIntro'
-
 import './App.css'
 
 function App() {
