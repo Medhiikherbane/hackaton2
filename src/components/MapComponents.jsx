@@ -1,5 +1,5 @@
 import React, {useState, useRef} from 'react';
-
+import Navbar from './Navbar';
 import "./MapStyle.css";
 
 const regionInfo = {
@@ -172,6 +172,7 @@ function Map () {
     };
     return (
         <div id='map-container'>
+            <div className='navbar-map'>< Navbar /></div>
             <p className='map'><img src="./carte_france.jpg" alt="Carte des régions de France" usemap="#ImageMap1" ></img></p>
 <map name="ImageMap1" >
 
@@ -244,7 +245,7 @@ href="region-rhone-alpes.htm" onClick={(e) => handleAreaClick(e, "Rhône-Alpes")
         
 
 <div className='body-dialog'>
-
+        
 <dialog ref={dialogRef}>
                 {selectedRegion && regionInfo[selectedRegion] && (
                     <div>

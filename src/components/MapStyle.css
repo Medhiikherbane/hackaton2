@@ -3,47 +3,48 @@ body {
     padding: 0;
     margin: 0;
 }
-
 dialog {
     border-radius: 10px;
     background-color: rgb(255, 230, 205);
+    box-shadow: 15px 15px 15px black;
 }
 .body-dialog {
     border-radius: 10px;
     background: fixed;
     display: flex;
     border-radius: 20px;
-
-  img {
-            
+  img {   
             width: 50px;
             height: 50px;
             margin-right: 70%;
             margin-top: 10px;
    }
-    
     ul {
         list-style: none;
     }
-
 }
-
 #map-container {
     display: flex;
+    flex-direction: column;
     background-image: url("./backgroundMap.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     min-height: 100vh;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-
 }
-
 .map {
     /* display: flex;
     align-content: center;
     justify-content: center;
     margin-top: 300px; */
     scale: 1.9;
+}
+.navbar-map {
+    background-color:  rgb(255, 230, 205);
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 15px 15px 15px black;
+    margin-bottom: 6%;
 }
