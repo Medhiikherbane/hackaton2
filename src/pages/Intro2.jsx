@@ -10,7 +10,7 @@ function Intro2() {
             nous vous offrons la possibilité de délivrer vos messages et vos colis<br/>
             de façon personnalisée en fonction de vos envies et de vos moyens</h2>
             <h2 className="intro2-bienvenue">Bienvenue sur :</h2>
-            <Link to="/">
+            <Link to="/Birds">
             <img src="src/assets/images/pigeon-prime.png" alt ="logo pigeon prime" />
             </Link>
             <div className="intro-pigeon">
