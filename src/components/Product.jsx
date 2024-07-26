@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const Product = ({ product, addToCart }) => {
   if (!product) {
     return <div>Produit non disponible</div>;

@@ -1,7 +1,9 @@
 import { useEffect, useState } from 'react';
 import Product from '../components/Product';
 import { Link } from 'react-router-dom';
+import Navbar from "../components/Navbar"
 import './Magasin.css';
+
 
 const Magasin = () => {
   const [produits, setProduits] = useState([]);
@@ -37,6 +39,7 @@ const Magasin = () => {
 
   return (
     <div className="magasin">
+      <Navbar />
         <div className='header'>
             <h1>Pigeon Shop</h1>
             <Link to="/Panier" type="button">
