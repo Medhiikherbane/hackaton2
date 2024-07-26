@@ -1,5 +1,5 @@
 import React, {useState, useRef} from 'react';
-
+import Navbar from './Navbar';
 import "./MapStyle.css";
 
 const regionInfo = {
@@ -18,7 +18,7 @@ const regionInfo = {
         conseil: ["suivre la route des vins"]
     },
     "Auvergne": {
-        description: "L'Aquitaine est une région du sud-ouest de la France",
+        description: "L'Auvergne est une région du centre de la France",
         attractions: ["truffade","le vin de saint-Pourçain"],
         timeTrip:["vous comptez 3 minutes par kilomètre "],
         img:["./pigeonLogo.png"],
@@ -46,117 +46,117 @@ const regionInfo = {
         conseil: ["allez vers le milieu"]
     },
     "Champagne-Ardenne": {
-        description: "L'Aquitaine est une région du sud-ouest de la France",
-        attractions: ["Festival de Moisy sur Meth"],
+        description: "La Champagne-Ardennes est une région du nord-est de la France",
+        attractions: ["champagne !","ville fortifiée","Notre Dame"],
         timeTrip:["vous comptez 3 minutes par kilomètre supplémentaire "],
         img:["./pigeonLogo.png"],
-        conseil: ["Suite à des pertubations dans le ciel le temps de trajet est ralongé"]
+        conseil: ["ne passez pas la frontière"]
     },
     "Franche-Comté": {
-        description: "L'Aquitaine est une région du sud-ouest de la France",
-        attractions: ["Festival de Moisy sur Meth"],
+        description: "La Franche-Comté est une région de L'est de la France",
+        attractions: ["Devise : Comtois, rends-toi ! Nenni, ma foi !","vin de paille"],
         timeTrip:["vous comptez 3 minutes par kilomètre supplémentaire "],
         img:["./pigeonLogo.png"],
-        conseil: ["Suite à des pertubations dans le ciel le temps de trajet est ralongé"]
+        conseil: ["rien à signaler "]
     },
     "Corse": {
-        description: "L'Aquitaine est une région du sud-ouest de la France",
-        attractions: ["Festival de Moisy sur Meth"],
-        timeTrip:["vous comptez 3 minutes par kilomètre supplémentaire "],
+        description: "La Corse est une région du sud de la France",
+        attractions: ["pic de Monte-cinto"],
+        timeTrip:["à definir sur place  "],
         img:["./pigeonLogo.png"],
-        conseil: ["Suite à des pertubations dans le ciel le temps de trajet est ralongé"]
+        conseil: ["Restez tranquille est tout se passera bien"]
     },
     // Ajoutez des informations pour les autres régions ici
     "Haute-Normandie": {
-        description: "L'Aquitaine est une région du sud-ouest de la France",
-        attractions: ["Festival de Moisy sur Meth"],
+        description: "La Haute-Normandie est une région du sud-ouest de la France",
+        attractions: ["Gros barbecue prévue en 1431 : elle à frit elle a tout compris "],
         timeTrip:["vous comptez 3 minutes par kilomètre supplémentaire "],
         img:["./pigeonLogo.png"],
-        conseil: ["Suite à des pertubations dans le ciel le temps de trajet est ralongé"]
+        conseil: ["jeanne à entendue parlé d'un nuage de fumée"]
     },
     "Île-de-France": {
-        description: "L'Aquitaine est une région du sud-ouest de la France",
-        attractions: ["Festival de Moisy sur Meth"],
-        timeTrip:["vous comptez 3 minutes par kilomètre supplémentaire "],
+        description: "L'Île-de-France est une région de la France",
+        attractions: ["petite compétition sportive a venir"],
+        timeTrip:["vous comptez 30 minutes par kilomètre supplémentaire"],
         img:["./pigeonLogo.png"],
-        conseil: ["Suite à des pertubations dans le ciel le temps de trajet est ralongé"]
+        conseil: ["N'oubliez pas votre QRcode"]
     },
     "Languedoc-Roussillon": {
-        description: "L'Aquitaine est une région du sud-ouest de la France",
-        attractions: ["Festival de Moisy sur Meth"],
-        timeTrip:["vous comptez 3 minutes par kilomètre supplémentaire "],
+        description: "Le Languedoc-Roussillon est une région du sud de la France",
+        attractions: ["pinard","The place to be "],
+        timeTrip:["vous comptez 5 minutes par kilomètre supplémentaire "],
         img:["./pigeonLogo.png"],
-        conseil: ["Suite à des pertubations dans le ciel le temps de trajet est ralongé"]
+        conseil: ["évitez la côte"]
     },
     "Limousin": {
-        description: "L'Aquitaine est une région du sud-ouest de la France",
-        attractions: ["Festival de Moisy sur Meth"],
+        description: "Le Limousin est une région du sud-ouest de la France",
+        attractions: ["la porcelaine","quelques vaches"],
         timeTrip:["vous comptez 3 minutes par kilomètre supplémentaire "],
         img:["./pigeonLogo.png"],
-        conseil: ["Suite à des pertubations dans le ciel le temps de trajet est ralongé"]
+        conseil: ["évitez les limousines"]
     },
     "Lorraine": {
-        description: "L'Aquitaine est une région du sud-ouest de la France",
-        attractions: ["Festival de Moisy sur Meth"],
+        description: "La Loraine est une région de l'est de la France",
+        attractions: ["un musé d'art contemporain d'ici quelques années","un certain Stanislas"],
         timeTrip:["vous comptez 3 minutes par kilomètre supplémentaire "],
         img:["./pigeonLogo.png"],
-        conseil: ["Suite à des pertubations dans le ciel le temps de trajet est ralongé"]
+        conseil: ["vous n'aurez pas l'Alsace"]
     },
     "Midi-Pyrénées": {
-        description: "L'Aquitaine est une région du sud-ouest de la France",
-        attractions: ["Festival de Moisy sur Meth"],
-        timeTrip:["vous comptez 3 minutes par kilomètre supplémentaire "],
+        description: "Le Midi-Pyrénées est une région du sud-ouest de la France",
+        attractions: ["futur apparition de la Vierge Marie"],
+        timeTrip:["vous comptez 3 je vous salue marie"],
         img:["./pigeonLogo.png"],
-        conseil: ["Suite à des pertubations dans le ciel le temps de trajet est ralongé"]
+        conseil: ["priez pour nous"]
     },
     "Nord-Pas-de-Calais": {
-        description: "L'Aquitaine est une région du sud-ouest de la France",
-        attractions: ["Festival de Moisy sur Meth"],
-        timeTrip:["vous comptez 3 minutes par kilomètre supplémentaire "],
+        description: "Le Nord-Pas-de-Calais est une région du Nord de la France",
+        attractions: ["maroilles","picon"],
+        timeTrip:["vous comptez 1 minutes par kilomètre supplémentaire "],
         img:["./pigeonLogo.png"],
-        conseil: ["Suite à des pertubations dans le ciel le temps de trajet est ralongé"]
+        conseil: ["n'oubliez pas votre petite laine"]
     },
     "Basse-Normandie": {
-        description: "L'Aquitaine est une région du sud-ouest de la France",
-        attractions: ["Festival de Moisy sur Meth"],
+        description: "La Basse-Normandie est une région de l'ouest de la France",
+        attractions: ["plage ideal pour débarquer"],
         timeTrip:["vous comptez 3 minutes par kilomètre supplémentaire "],
         img:["./pigeonLogo.png"],
-        conseil: ["Suite à des pertubations dans le ciel le temps de trajet est ralongé"]
+        conseil: ["pas de contrainte particulière"]
     },
     "Pays de Loire": {
-        description: "L'Aquitaine est une région du sud-ouest de la France",
-        attractions: ["Festival de Moisy sur Meth"],
+        description: "Le Pays de Loire est une région de l'ouest de la France",
+        attractions: ["Châteaux",],
         timeTrip:["vous comptez 3 minutes par kilomètre supplémentaire "],
         img:["./pigeonLogo.png"],
-        conseil: ["Suite à des pertubations dans le ciel le temps de trajet est ralongé"]
+        conseil: ["Suivez le cour d'eau"]
     },
     "Picardie": {
-        description: "L'Aquitaine est une région du sud-ouest de la France",
-        attractions: ["Festival de Moisy sur Meth"],
-        timeTrip:["vous comptez 3 minutes par kilomètre supplémentaire "],
+        description: "La Picardie est une région du Nord de la France",
+        attractions: ["Magasin Picard","les Fatals picards"],
+        timeTrip:["vous comptez 5 minutes par kilomètre supplémentaire "],
         img:["./pigeonLogo.png"],
-        conseil: ["Suite à des pertubations dans le ciel le temps de trajet est ralongé"]
+        conseil: ["du brouillard givrant est prevu"]
     },
-    "Poitou-Charente": {
-        description: "L'Aquitaine est une région du sud-ouest de la France",
-        attractions: ["Festival de Moisy sur Meth"],
+    "Poitou-Charentes": {
+        description: "Le Poitou-Charentes est une région de l'ouest de la France",
+        attractions: ["Marais Poitevin","huitres"],
         timeTrip:["vous comptez 3 minutes par kilomètre supplémentaire "],
         img:["./pigeonLogo.png"],
-        conseil: ["Suite à des pertubations dans le ciel le temps de trajet est ralongé"]
+        conseil: ["secteur dégagé peu de monde dans ce secteur"]
     },
     "Provence-Alpes-Côte-d'Azur": {
-        description: "L'Aquitaine est une région du sud-ouest de la France",
-        attractions: ["Festival de Moisy sur Meth"],
+        description: "La Provence-Alpes-Côte-d'Azur est une région du sud de la France",
+        attractions: ["Festival de Cannes","quartier nord de Marseille"],
         timeTrip:["vous comptez 3 minutes par kilomètre supplémentaire "],
         img:["./pigeonLogo.png"],
-        conseil: ["Suite à des pertubations dans le ciel le temps de trajet est ralongé"]
+        conseil: ["Tranquille tout le monde est à la plage"]
     },
     "Rhône-Alpes": {
-        description: "L'Aquitaine est une région du sud-ouest de la France",
-        attractions: ["Festival de Moisy sur Meth"],
-        timeTrip:["vous comptez 3 minutes par kilomètre supplémentaire "],
+        description: "Le Rhône-Alpes est une région du sud-est de la France",
+        attractions: ["quenelles","lyonnais"],
+        timeTrip:["vous comptez 2 minutes par kilomètre supplémentaire "],
         img:["./pigeonLogo.png"],
-        conseil: ["Suite à des pertubations dans le ciel le temps de trajet est ralongé"]
+        conseil: ["Eviter le centre ville et les bouchons lyonnais"]
     },
 };
 
@@ -172,6 +172,7 @@ function Map () {
     };
     return (
         <div id='map-container'>
+            <div className='navbar-map'>< Navbar /></div>
             <p className='map'><img src="./carte_france.jpg" alt="Carte des régions de France" usemap="#ImageMap1" ></img></p>
 <map name="ImageMap1" >
 
@@ -244,6 +245,7 @@ href="region-rhone-alpes.htm" onClick={(e) => handleAreaClick(e, "Rhône-Alpes")
         
 
 <div className='body-dialog'>
+        
 <dialog ref={dialogRef}>
                 {selectedRegion && regionInfo[selectedRegion] && (
                     <div>
