@@ -1,9 +1,7 @@
 body {
+    height: 100%;
     padding: 0;
     margin: 0;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url("./backgroundMap.jpg");
 }
 
 dialog {
@@ -31,6 +29,21 @@ dialog {
 }
 
 #map-container {
+    display: flex;
+    background-image: url("./backgroundMap.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.map {
+    /* display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 300px; */
     scale: 1.9;
-    opacity: 0.9;
 }
