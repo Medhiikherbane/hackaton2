@@ -4,10 +4,10 @@ import './Navbar.css';
 function Navbar(){
   return (
     <nav>
-      <img className='logo' src="src/assets/pigeon-prime.png" alt="" />
+      <img className='logo' src="src/assets/images/logo-pigeon.png" alt="" />
       <ul>
         <li>
-          <Link to="/boutique">Boutique</Link>
+          <Link to="/Magasin">Boutique</Link>
         </li>
         <li>
           <Link to="/map">Map</Link>
