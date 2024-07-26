@@ -1,4 +1,7 @@
 #gif-body {
+    background-image: url("../assets/images/background-intro.jpg");
+    background-size: cover;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,6 +9,7 @@
     h2 {
         font-size: 3rem;
         font-family: "roboto";
+        font-family: "special";
     }
 
     img {

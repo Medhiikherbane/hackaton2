@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "special";
+  src: url("../public/font/special-elite/special-elite.ttf");
+}
+
+:root {
+  --primary-font: "Wild";
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -9,7 +18,7 @@ a {
 }
 
 #app-body {
-  background-image: url(./assets/background-intro.jpg);
+  background-image: url("./assets/images/background-intro.jpg");
   background-size: cover;
   min-height: 100vh;
   background-position: center; 

@@ -1,0 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #C0C0C0;
+    font-family: "Courier New", Courier, monospace;
+    position: relative;
+    overflow-x: hidden; /* Pour éviter les barres de défilement pendant l'animation */
+  }
