@@ -17,8 +17,7 @@ function Birds() {
         <Navbar />
         {birds.map((bird) => {
           return (
-            <div key={bird.id}>
-              
+            <div className="card-birds" key={bird.id}>
               <p className="names">{bird.name}</p>
               <p>{bird.livraison}</p>
               <img src={bird.imgSrc} alt={bird.name}/>
