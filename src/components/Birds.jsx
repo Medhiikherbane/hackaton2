@@ -12,9 +12,9 @@ function Birds() {
     }, []);
 
     return (
-      
-      <div className="grid-birds">
+      <>
         <Navbar />
+      <div className="grid-birds">
         {birds.map((bird) => {
           return (
             <div className="card-birds" key={bird.id}>
@@ -26,6 +26,7 @@ function Birds() {
           )
         })}
       </div>
+      </>
     )
   }
   

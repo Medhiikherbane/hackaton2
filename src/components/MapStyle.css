@@ -39,6 +39,7 @@ dialog {
     align-content: center;
     justify-content: center;
     margin-top: 300px; */
+    margin: 210px;
     scale: 1.9;
 }
 .navbar-map {
@@ -46,5 +47,5 @@ dialog {
     border-radius: 10px;
     border: 2px solid black;
     box-shadow: 15px 15px 15px black;
-    margin-bottom: 6%;
+    /* margin-bottom: 6%; */
 }

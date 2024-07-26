@@ -2,6 +2,7 @@ import React from 'react'
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ReactDOM from 'react-dom/client'
 
+import Messagerie from "./pages/Messagerie.jsx"
 import App from './App.jsx'
 import Magasin from './pages/Magasin.jsx'
 import Panier from './pages/Panier.jsx'
@@ -35,6 +36,10 @@ const router= createBrowserRouter([
   {
     path: "/Birds",
     element:<Birds />,
+  },
+  {
+    path: "/messagerie",
+    element:<Messagerie />,
   },
 ]);
 

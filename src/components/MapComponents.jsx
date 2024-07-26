@@ -171,8 +171,9 @@ function Map () {
         dialogRef.current.showModal();
     };
     return (
-        <div id='map-container'>
+        <>
             <div className='navbar-map'>< Navbar /></div>
+        <div id='map-container'>
             <p className='map'><img src="./carte_france.jpg" alt="Carte des régions de France" usemap="#ImageMap1" ></img></p>
 <map name="ImageMap1" >
 
@@ -281,7 +282,7 @@ href="region-rhone-alpes.htm" onClick={(e) => handleAreaClick(e, "Rhône-Alpes")
             </div>
 </div>
 
-
+</>
     )
 }
 

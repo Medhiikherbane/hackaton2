@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import styled, { keyframes, css } from 'styled-components';
-import Léon from '../public/Léon.png';
-import Raymonde from '../public/Raymonde.png';
-import Abdou from '../public/Abdou.png';
+import Léon from '../assets/images/Léon.png';
+import Raymonde from '../assets/images/Raymonde.png';
+import Abdou from '../assets/images/Abdou.png';
 
 const FormContainer = styled.form`
   margin: 30px ;

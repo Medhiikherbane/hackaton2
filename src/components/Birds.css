@@ -1,7 +1,7 @@
 
 .grid-birds {
     padding: 1em;
-    /* background: whitesmoke; */
+    background-image: url("./backgroundMap.jpg");
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);

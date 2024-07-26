@@ -1,8 +1,10 @@
+import { useState } from 'react';
 import styled from 'styled-components';
-import Header from './Header';
-import MessageForm from './MessageForm';
-import MessageList from './MessageList';
+import Header from '../components/Header';
+import MessageForm from '../components/MessageForm';
+import MessageList from '../components/MessageList';
 import '../pages/Messagerie.css';
+import Navbar from '../components/Navbar';
 
 const AppContainer = styled.div`
   display: flex;
@@ -47,7 +49,7 @@ const EightiesButton = styled.button`
   }
 `;
 
-const App = () => {
+const Messagerie = () => {
   const [messages, setMessages] = useState([]);
 
   const sendMessage = (message) => {
@@ -60,6 +62,8 @@ const App = () => {
   };
 
   return (
+    <>
+    <Navbar/>
     <AppContainer>
       <Header />
       <ContentWrapper>
@@ -70,7 +74,8 @@ const App = () => {
         </EightiesButton>
       </ContentWrapper>
     </AppContainer>
+    </>
   );
 };
 
-export default App;
+export default Messagerie;
